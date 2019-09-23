@@ -1,13 +1,44 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/list/list",
+    "pages/home/home",
+    "pages/partner/partner",
+    "pages/more/more",
+    "pages/post/post"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1772cb",
+    "navigationBarTitleText": "云开发技术训练营",
+    "navigationBarTextStyle": "white"
   },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/list/list",
+        "text": "list"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "home"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "more"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "list"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug":true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ],
   "sitemapLocation": "sitemap.json"
 }
