@@ -8,27 +8,38 @@
   ],
   "window": {
     "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#1772cb",
+    "navigationBarBackgroundColor": "#f4ea2a",
     "navigationBarTitleText": "云开发技术训练营",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
+    "color": "#333",
+    "selectedColor": "#f4ea2a",
+    "backgroundColor": "#ffffff",
     "list": [
       {
-        "pagePath": "pages/list/list",
-        "text": "list"
+        "pagePath": "pages/home/home",
+        "iconPath": "image/zhuye.png",
+        "selectedIconPath": "image/zhuye-active.png",
+        "text": "首页"
       },
       {
-        "pagePath": "pages/home/home",
-        "text": "home"
+        "pagePath": "pages/list/list",
+        "iconPath": "image/huodong.png",
+        "selectedIconPath": "image/huodong-active.png",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/partner/partner",
+        "iconPath": "image/huoban.png",
+        "selectedIconPath": "image/huoban-active.png",
+        "text": "伙伴"
       },
       {
         "pagePath": "pages/more/more",
-        "text": "more"
-      },
-      {
-        "pagePath": "pages/list/list",
-        "text": "list"
+        "iconPath": "image/gengduo.png",
+        "selectedIconPath": "image/gengduo-active.png",
+        "text": "更多"
       }
     ]
   },
