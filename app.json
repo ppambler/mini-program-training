@@ -1,6 +1,8 @@
 {
   "pages": [
     "pages/home/home",
+    "pages/home/imglist",
+    "pages/home/imgshow/imgshow",
     "pages/list/list",
     "pages/partner/partner",
     "pages/more/more",
