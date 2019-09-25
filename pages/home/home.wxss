@@ -1,1 +1,25 @@
 /* pages/home/home.wxss */
+
+.title{
+  font-size: 20px; 
+  font-weight: 600;
+  text-align: center;
+}
+
+
+
+.item-title{
+  font-size:18px;
+  font-weight:500;
+  color: #c60;
+}
+
+.desc,.item-desc{
+  color: #333;
+}
+
+#wxmlinfo,#studyweapp{
+  font-size:16px;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+  line-height: 1.6;
+}
