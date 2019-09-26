@@ -1,2 +1,32 @@
 <!--pages/home/imgshow/imgshow.wxml-->
 <text>pages/home/imgshow/imgshow.wxml</text>
+
+
+<view id="imgsection">
+  <view class="title">小程序显示图片</view>
+  <view class="imglist">
+    <image class="imgicon" src="/image/zhuye.png"></image>
+  </view>
+</view>
+
+
+<view class="imglist">
+    <image class="circle" mode="widthFix" src="https://hackwork.oss-cn-shanghai.aliyuncs.com/lesson/weapp/4/logo.jpg"></image>
+</view>
+
+<view class="imglist">
+    <image class="imgitem me" src="https://xly-1300163635.cos.ap-guangzhou.myqcloud.com/head.jpg"></image>
+</view>
+
+<view class="imglist">
+    <image class="imgitem" src="https://hackwork.oss-cn-shanghai.aliyuncs.com/lesson/weapp/4/weapp.jpg"></image>
+</view>
+
+<view class="imglist">
+    <image class="imgitem" mode="widthFix" src="https://hackwork.oss-cn-shanghai.aliyuncs.com/lesson/weapp/4/weapp.jpg"></image>
+</view>
+
+<view class="imglist">
+    <image class="imgfull" mode="center" src="https://tcb-1251009918.cos.ap-guangzhou.myqcloud.com/background.png"></image>
+</view>
+
