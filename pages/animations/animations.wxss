@@ -1,0 +1,16 @@
+/* pages/animations/animations.wxss */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+ 
+  to {
+    opacity: 1;
+  }
+}
+ 
+.fadeIn {
+  animation: 4s linear 0s infinite alternate fadeIn;
+  }
+

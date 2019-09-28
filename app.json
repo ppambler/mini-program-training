@@ -1,5 +1,10 @@
 {
   "pages": [
+    "pages/animations/animations",
+    "pages/transition/transition",
+    "pages/transform/transform",
+    "pages/filter/filter",
+    "pages/gradient/gradient",
     "pages/home/home",
     "pages/home/imgshow/imgshow",
     "pages/list/list",

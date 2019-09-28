@@ -1,0 +1,14 @@
+<!--pages/transition/transition.wxml-->
+<text>pages/transition/transition.wxml</text>
+
+
+
+<view class="transition-display">
+<text>鼠标放在元素上8秒以上，头3s没效果，后5s开始执行过渡</text>
+    <view class="box bg-color" hover-class="bg-color-hover"></view>
+</view>
+
+<view>
+    <text>盒子的多个属性一起动画: width, height, background-color, transform. 将鼠标或手指悬停在盒子上查看动画之后放开。</text>
+    <view class="animatebox" hover-class="animatebox-hover"></view>
+</view>

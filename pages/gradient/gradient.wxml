@@ -1,0 +1,7 @@
+<!--pages/gradient/gradient.wxml-->
+<text>pages/gradient/gradient.wxml</text>
+
+<!-- <view class="gradient-display">
+</view> -->
+
+<view class="radial-gradient"></view>

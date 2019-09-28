@@ -1,4 +1,6 @@
 /**app.wxss**/
+@import 'style/weui.wxss';
+@import 'style/animate.wxss';
 .container {
   height: 100%;
   display: flex;
@@ -7,4 +9,7 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
-} 
+}
+.hi {
+  color: red;
+}
