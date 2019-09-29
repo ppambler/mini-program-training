@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/databind/databind",
     "pages/animations/animations",
     "pages/transition/transition",
     "pages/transform/transform",
