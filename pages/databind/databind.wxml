@@ -1,5 +1,5 @@
-<!--pages/databind/databind.wxml-->
-<text>pages/databind/databind.wxml</text>
+<!-- pages/databind/databind.wxml -->
+<!-- <text>pages/databind/databind.wxml</text>
 <view>张明，您已登录，欢迎</view>
 <view>{{username}}，您已登录，欢迎</view>
 
@@ -43,5 +43,24 @@
 
 <view>{{movies}}</view>
 <view>{{movies[1]}}</view>
-<view>{{movies[1].actor}}</view>
-
+<view>{{movies[1].actor}}</view> -->
+<view class="title-test">列表渲染:</view>
+<view wx:for="{{newstitle}}" wx:key="*this">{{item}}</view>
+<view>显示指定item：</view>
+<view wx:for-items="{{newstitle}}" wx:for-item="title" wx:key="*this">{{title}}</view>
+<view class="title-test">电影列表页面：</view>
+<view class="page__bd">
+  <view class="weui-panel weui-panel_access">
+    <view class="weui-panel__bd" wx:for="{{movies1}}" wx:for-item="movies1" wx:key="*item">
+      <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" mode="widthFix" src="{{movies1.img}}" sytle="height:auto"></image>
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title">{{movies1.name}}</view>
+          <view class="weui-media-box__desc">{{movies1.desc}}</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>
