@@ -1,0 +1,51 @@
+<!--pages/list-if-render/list-if-render.wxml-->
+<text>pages/list-if-render/list-if-render.wxml</text>
+
+<view class="title-test">列表渲染:</view>
+<view wx:for="{{newstitle}}" wx:key="*this">{{item}}</view>
+<view class="title-test">显示指定item为title：</view>
+<view wx:for-items="{{newstitle}}" wx:for-item="title" wx:key="*this">{{title}}</view>
+<view class="title-test">电影列表页面：</view>
+<view class="page__bd">
+  <view class="weui-panel weui-panel_access">
+    <view class="weui-panel__bd" wx:for="{{movies1}}" wx:for-item="movies1" wx:key="*item">
+      <navigator url="" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
+        <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
+          <image class="weui-media-box__thumb" mode="widthFix" src="{{movies1.img}}" sytle="height:auto"></image>
+        </view>
+        <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
+          <view class="weui-media-box__title">{{movies1.name}}</view>
+          <view class="weui-media-box__desc">{{movies1.desc}}</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+<view class="title-test">Grid九宫格样式参考(去掉宽度的样式即是九宫格):</view>
+
+<view class="page__bd">
+    <view class="weui-grids">
+        <block wx:for="{{grids}}" wx:for-item="grid" wx:key="*this">
+            <navigator url="" class="weui-grid" hover-class="weui-grid_active">
+                <image class="weui-grid__icon" src="{{grid.imgurl}}" />
+                <view class="weui-grid__label">{{grid.title}}</view>
+            </navigator>
+        </block>
+    </view>
+</view>
+
+<view class="title-test">List样式参考:</view>
+
+
+<view class="weui-cells weui-cells_after-title">
+    <block wx:for="{{listicons}}" wx:for-item="listicons" wx:key="icon">
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+            <view class="weui-cell__hd">
+                <image src="{{listicons.icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </view>
+            <view class="weui-cell__bd">{{listicons.title}}</view>
+            <view class="weui-cell__ft weui-cell__ft_in-access">{{listicons.desc}}</view>
+        </navigator>
+    </block>
+</view>

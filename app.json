@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/list-if-render/list-if-render",
     "pages/databind/databind",
     "pages/animations/animations",
     "pages/transition/transition",

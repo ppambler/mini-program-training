@@ -1,0 +1,9 @@
+/* pages/list-if-render/list-if-render.wxss */
+/* 处理图片溢出，因为默认是60px的大小，因此需要自适应！ */
+.weui-media-box__hd_in-appmsg{
+  height: auto;
+}
+
+.weui-grid{
+  width: 20%;
+}
