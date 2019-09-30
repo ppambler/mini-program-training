@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/home/home",
     "pages/mp-component/mp-component",
     "pages/list-if-render/list-if-render",
     "pages/databind/databind",
@@ -8,7 +9,6 @@
     "pages/transform/transform",
     "pages/filter/filter",
     "pages/gradient/gradient",
-    "pages/home/home",
     "pages/home/imgshow/imgshow",
     "pages/list/list",
     "pages/home/imglist",
@@ -16,11 +16,13 @@
     "pages/more/more",
     "pages/post/post"
   ],
-  "window": {
-    "backgroundTextStyle": "dark",
-    "navigationBarBackgroundColor": "#f4ea2a",
-    "navigationBarTitleText": "云开发技术训练营",
-    "navigationBarTextStyle": "black"
+"window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1772cb",
+    "navigationBarTitleText": "HackWork技术工坊",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#1772cb",
+    "navigationStyle": "custom"
   },
   "tabBar": {
     "color": "#333",

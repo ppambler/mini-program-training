@@ -1,6 +1,13 @@
 <!--pages/home/home.wxml-->
 <!-- <text>pages/home/home.wxml</text> -->
 <!-- <text class="hi">hi</text> -->
+<import src="/pages/common/foot.wxml" />
+<import src="/pages/common/head.wxml" />
+<template is="head" data="{{...head}}" />
+
+<button open-type="contact">我是谁</button>
+
+
 <view class="page__bd">
   <view class="weui-panel">
     <view class="weui-panel__bd">
@@ -158,3 +165,6 @@
     </view>
   </view>
 </view>
+
+
+<template is="foot" />
