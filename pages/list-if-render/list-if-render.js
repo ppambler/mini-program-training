@@ -5,6 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
+    numberArray: [1, 2, 3, 4],
+    stringArray: ['aaa', 'ccc', 'fff', 'good'],
+    input_data: [
+          { id: 1, unique: "unique1" },
+          { id: 2, unique: "unique2" },
+          { id: 3, unique: "unique3" },
+          { id: 4, unique: "unique4" },
+        ],
     newstitle: [
       "瑞幸咖啡：有望在三季度达到门店运营的盈亏平衡点",
       "腾讯：广告高库存量还是会持续到下一年",

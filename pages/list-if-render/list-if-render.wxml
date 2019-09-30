@@ -49,3 +49,10 @@
         </navigator>
     </block>
 </view>
+
+<view class="title-test">测试*this：</view>
+<input value="id:{{ item }}"   wx:for="{{numberArray}}"  wx:key="*this"  />
+   <input value="id:{{ item }}"   wx:for="{{stringArray}}"  wx:key="*this"  />
+
+<view class="title-test">测试*xx：</view>
+ <input value="id:{{item.id}}"   wx:for="{{input_data}}"  wx:key="unique"  />
