@@ -5,7 +5,7 @@
 <import src="/pages/common/head.wxml" />
 <template is="head" data="{{...head}}" />
 
-<button open-type="contact">我是谁</button>
+<button open-type="contact">我有话说</button>
 
 
 <view class="page__bd">

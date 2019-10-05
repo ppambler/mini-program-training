@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/tapevent/tapevent",
     "pages/home/home",
     "pages/mp-component/mp-component",
     "pages/list-if-render/list-if-render",
@@ -21,8 +22,7 @@
     "navigationBarBackgroundColor": "#1772cb",
     "navigationBarTitleText": "HackWork技术工坊",
     "navigationBarTextStyle": "white",
-    "backgroundColor": "#1772cb",
-    "navigationStyle": "custom"
+    "backgroundColor": "#1772cb"
   },
   "tabBar": {
     "color": "#333",
