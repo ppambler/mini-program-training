@@ -47,6 +47,18 @@ Page({
     },
     ],
   },
+  clickImage: function (event) {
+    console.log('我是button', event)
+    wx.navigateTo({
+      url: "/pages/home/detail/detail?id=imageclick&uid=tcb&key=tap&ENV=weapp&frompage=lifecycle"
+    })
+  },
+  clickView: function (event) {
+    console.log('我是view', event)
+    wx.navigateTo({
+      url: "/pages/home/detail/detail?id=viewclick&uid=tcb&key=tap&ENV=weapp&frompage=lifecycle"
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载
