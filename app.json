@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/lifecyle/lifecyle",
+    "pages/page-render/page-render",
     "pages/tapevent/tapevent",
     "pages/home/home",
     "pages/mp-component/mp-component",

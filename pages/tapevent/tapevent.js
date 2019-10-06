@@ -78,19 +78,19 @@ Page({
   },
   navigateTo() {
     wx.navigateTo({
-        url: '/pages/home/imgshow/imgshow'
+      url: '/pages/home/imgshow/imgshow'
     })
-},
-switchTab() {
+  },
+  switchTab() {
     wx.switchTab({
-        url: "/pages/list/list",
+      url: "/pages/list/list",
     })
-},
-redirectTo() {
+  },
+  redirectTo() {
     wx.redirectTo({
-        url: '/pages/home/imgshow/imgshow'
+      url: '/pages/home/imgshow/imgshow'
     })
-},
+  },
   /**
    * 生命周期函数--监听页面加载
    */
