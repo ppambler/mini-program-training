@@ -1,6 +1,7 @@
 //app.js
 App({
-  onLaunch: function () {
+  onLaunch: function (opts) {
+    console.log('onLaunch监听小程序初始化。', opts)
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -32,6 +33,12 @@ App({
         }
       }
     })
+  },
+  onShow(opts) {
+    console.log('onShow监听小程序启动或切前台', opts)
+  },
+  onHide() {
+    console.log('onHide监听小程序切后台')
   },
   globalData: {
     userInfo: null

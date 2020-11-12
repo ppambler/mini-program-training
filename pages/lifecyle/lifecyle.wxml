@@ -3,13 +3,13 @@
 <navigator id="detailshow" url="./../home/detail/detail?id=lesson&uid=tcb&key=tap&ENV=weapp&frompage=lifecycle" class="item-link">
   点击链接看控制台
 </navigator>
-<view class="page__bd">
+<!-- <view class="page__bd">
   <view class="weui-panel weui-panel_access">
     <view class="weui-panel__bd" wx:for="{{movies}}" wx:for-item="movies" wx:key="*item">
       <navigator url="./../home/detail/detail?id={{index}}&name={{movies.name}}&img={{movies.img}}&desc={{movies.desc}}" class="weui-media-box weui-media-box_appmsg" hover-class="weui-cell_active">
         <view class="weui-media-box__hd weui-media-box__hd_in-appmsg">
           <view id="viewclick" style="background-color: red;padding:20px;" data-sku="100000177760" data-spu="100000177756" data-pid="100000177756" data-toggle="Apple iPhone XR" data-jd-color="Red" data-productBrand="Apple" bindtap="clickView">
-            <image id="imageclick" class="weui-media-box__thumb" mode="widthFix" bindtap="clickImage" src="https://img13.360buyimg.com/n7/jfs/t1/842/9/3723/77573/5b997bedE4f438e5b/ccd1077b985c7150.jpg" sytle="height:auto"></image>
+            <image id="imageclick" data-hi="test" class="weui-media-box__thumb" mode="widthFix" bindtap="clickImage" src="https://img13.360buyimg.com/n7/jfs/t1/842/9/3723/77573/5b997bedE4f438e5b/ccd1077b985c7150.jpg" sytle="height:auto"></image>
           </view>
         </view>
         <view class="weui-media-box__bd weui-media-box__bd_in-appmsg">
@@ -19,4 +19,6 @@
       </navigator>
     </view>
   </view>
-</view>
+</view> -->
+
+<view class="title-test">小程序和页面的生命周期</view>

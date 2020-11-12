@@ -55,6 +55,9 @@ Page({
   },
   clickView: function (event) {
     console.log('我是view', event)
+    let jdpid = event.currentTarget.dataset.pid
+    let pidurl = "https://item.jd.com/" + jdpid + ".html"
+    console.log(pidurl)
     wx.navigateTo({
       url: "/pages/home/detail/detail?id=viewclick&uid=tcb&key=tap&ENV=weapp&frompage=lifecycle"
     })
@@ -64,6 +67,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log('onLoad监听页面加载')
     console.log(options)
   },
 
@@ -71,28 +75,29 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    console.log('onReady监听页面初次渲染完成')
   },
+
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    console.log('onShow监听页面显示')
   },
 
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-
+    console.log('onHide监听页面隐藏')
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+    console.log('onUnload监听页面卸载')
   },
 
   /**
